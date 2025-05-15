@@ -1,0 +1,60 @@
+/*
+	Program: CoordVal.css
+	Programmer: Antonio Hernandez
+    Date: February 11, 2025
+    Purpose: styles the elements of the CoordImg html webpage
+
+ */
+
+body {
+	background-color: #ffffcc;
+	font-family: Arial, sans-serif;
+	font-size: 100%;
+	color: #0000cc;
+	width: 750px;
+}
+br {
+	clear: left;
+}
+
+.coordInput{
+	display: flex;
+}
+
+.coordInput input[type="button"] {
+    margin-left: 1em;
+}
+
+input {
+	font-size: 120%;
+	height: 2em;
+	margin-bottom: .5em;
+}
+
+label {
+	font-weight: bold;
+	margin-top: 1em;
+}
+label.left {
+	float: left;
+	width: 7em;
+}
+
+/* add spacing between latitude text box and longitude label */
+#longlbl {
+    margin-left: 1em;
+}
+
+#laterr, #longerr {
+    width: 22em;
+	margin-top: 0.05em;
+    display: inline-block;
+    text-align: left;
+}
+
+/* maintains a consistent size and area for all the images */
+#worldmap {
+    display: block;
+    width: 900px;
+    height: 490px; 
+}

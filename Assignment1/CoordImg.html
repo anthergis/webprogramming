@@ -1,0 +1,43 @@
+<!--
+
+	Program: CoordImg.css
+	Programmer: Antonio Hernandez
+    Date: February 11, 2025
+    Purpose: Enter latitude and longitude coordinates to determine hemisphere quadrant in World Map Quadrant Display page
+
+-->
+
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Latitude and Longitude Validator</title>
+		<link rel="stylesheet" href="css/CoordVal.css">
+		<link rel="shortcut icon" href="images/bsh.png">
+		<script src="scripts/CoordVal.js"></script>
+
+	</head>
+
+	<body>
+		<form action="#" method="post" id="coordForm" name="coordForm">
+			<fieldset>
+				<h3>World Map Quadrant Display</h3>
+                <div class="coordInput"> <!-- new div for input boxes and button-->
+				    <label id="latlbl" for="lat" class="left"> Latitude: </label>
+				    <input type="text" id="lat" name="lat">
+					
+				    <label id="longlbl" for="long" class="left"> Longitude: </label>
+				    <input type="text" id="long" name="long" >
+
+                    <input type="button" id="val" value="Find Coordinates" onclick="valLatLong(lat.value,long.value)">
+                </div>  
+				<br>
+				<label id="laterr">&nbsp;</label> 
+				<label id="longerr">&nbsp;</label>
+				<label for="val" class="left"> &nbsp; </label>
+                <img id="worldmap" src="images/World.jpg" alt="World Map" /> <!--Added World Map image to the main display -->
+                <p id="mapquadrant">World Map<p>
+			</fieldset>
+		</form>
+
+	</body>
+</html>
