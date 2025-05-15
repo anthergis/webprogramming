@@ -1,0 +1,42 @@
+/*
+    Program: styles.css
+    Programmer: Antonio Hernandez
+    Purpose: To style the PROG5075 Assignment 3 Map Application
+*/
+
+/* Set width and height for the page and map view */
+html, body, #mainView {
+    height: 97%;
+    width: 100%;
+}
+
+/* Sets the background color of the body */
+body {
+    background-color: beige;
+}
+
+/* Style for the header which contains the COGS logo and the title*/
+#mapHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
+    padding: 10px 20px;
+    border-bottom: 2px solid #ccc;
+    position: relative;
+}
+
+/* Sets style for the logo image */
+#logo {
+    height: 50px;
+    position: absolute;
+    left: 20px;
+}
+
+/* Sets style for the title */
+#mapTitle {
+    font-size: 2em;
+    font-weight: bold;
+    color: black;
+}
+
