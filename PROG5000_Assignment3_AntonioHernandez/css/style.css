@@ -1,0 +1,259 @@
+/*
+
+    Program: style.css
+    Programmer: Antonio Hernandez
+    Date: December 2, 2024
+    Purpose: To style the html pages for Assignment 3
+
+*/
+
+body {
+    background-color: white;
+}
+
+.header {
+    background-color: #F1AD9C;
+    border: solid black;
+    text-align: center;
+    margin-bottom: 0.5%;
+}
+
+.navbar {
+    background-color: #F9F6BF;
+    border: solid black;
+    color: black;
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+.navbar a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: underline;
+    font-weight: bold;     
+    font-size: 20px;
+    color: black;
+    margin: 0 10px;
+}
+
+.navbar a:hover {
+    background-color: #ddd; 
+}
+
+.main {
+    background-color: white;
+    color: black;
+    border: solid black;
+    width: 70%;
+    margin-top: 1.5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    position: relative;
+}
+
+.para1 {
+    background-color: #DEE3D2;
+    border: solid black;
+    font-size: 18px;
+    width: 90%;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-bottom: 5%;
+    margin-left: 3%;
+    overflow: hidden;
+}
+
+.para1 img {
+    float: left;
+    max-width: 40%;
+    margin-right: 1%;
+}
+
+.para2 img {
+    float:left;
+    max-width: 40%;
+    margin-right: 1%;
+}
+
+.para2 {
+    background-color: #F3F1E3;
+    border: solid black;
+    font-size: 18px;
+    width: 90%;
+    padding-left: 2%;
+    margin-left: 3%;
+    margin-top: 2%;
+}
+
+.para3 {
+    background-color: white;
+    border: solid black;
+    font-size: 18px;
+    width: 29.0%;
+    margin-top: 1.45%;
+    padding-left: 1%;
+    padding-bottom: 5.44%;
+    position: absolute; 
+    top: 16.4%;
+    right: 0.5%;
+}
+
+.para3 img {
+    max-width: 95%;
+    margin-top: 5%;
+}
+
+.footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    border-top: solid 2px #ccc;
+}
+
+.resume-sec1, .resume-sec2, .resume-sec3 {
+    margin-left: 2%;
+    margin-bottom: 20px;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+}
+
+.resume-sec1 h1, .resume-sec2 h1, .resume-sec3 h1 {
+    color: black;
+}
+
+.resume-sec1 ol, .resume-sec2 ol, .resume-sec3 ol {
+    list-style-position: outside;
+    padding-left: 5%;
+}
+
+.resume-sec1 h2, .resume-sec2 h2, .resume-sec3 h2 {
+    padding-left: 2%;
+}
+
+.resume-sec1 p, .resume-sec2 p, .resume-sec3 p {
+    color: black;
+    font-size: 20px;
+    padding-left: 2%;
+}
+
+.resume-sec1 ol, .resume-sec2 ol, .resume-sec3 ol {
+    list-style-type: decimal; 
+    padding-left: 5%;
+    font-size: 20px;
+}
+
+.resume-sec1 ul, .resume-sec2 ul, .resume-sec3 ul {
+    list-style-type: disc;
+    padding-left: 5%;
+    font-size: 20px;
+}
+
+.resume-sec1 li, .resume-sec2 li, .resume-sec3 li {
+    list-style-type: 5%;
+    font-size: 20px;
+}
+
+.form {
+    background-color: #E0F2F2;
+    color: black;
+    max-width: 100%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 2%;
+}
+
+.form h1 {
+    text-align: center;   
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.label {
+    display: inline-block;
+    width: 10%;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.input-field {
+    display: inline-block;
+    width: 40%;
+    padding: 5px; 
+    font-size: 16px;
+}
+
+textarea.input-field {
+    height: 200px;
+    resize: none;
+}
+
+.radio {
+    background-color: #fee0d2;
+    max-width: 100%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.radio div {
+    margin-bottom: 5px;
+}
+
+.radio .label {
+    text-align: left; 
+    display: inline-block; 
+    margin-left: 10px;
+}
+
+.send-data-btn {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    display: block;
+    margin: 10px auto;
+}
+
+.table-schedule, .table-courses {
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black; 
+    font-family: Verdana, sans-serif;
+}
+
+
+.table-schedule td {
+    padding-left: 10px; 
+    padding-right: 10px;
+}
+
+.table-courses td {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.table-schedule td[rowspan] {
+    background-color: #E9FFDB;
+}
+
+.footer {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+    border-top: 2px solid #333; /* Adds the horizontal line above the footer */
+    margin-top: 2%;
+}
+
+
+
+
+    
+
